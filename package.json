@@ -1,0 +1,25 @@
+{
+  "name": "mcp-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "{   \"name\": \"realtime_bus_mcp\",   \"version\": \"1.0.0\",   \"description\": \"公交实时信息服务\",   \"endpoints\": [     {       \"url\": \"https://yourserver.com/mcp\",       \"methods\": [\"get_bus_info\"]     }   ] }",
+  "main": "calculator-mcp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljp-777/mcp-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljp-777/mcp-test/issues"
+  },
+  "homepage": "https://github.com/ljp-777/mcp-test#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "mathjs": "^15.0.0"
+  }
+}
